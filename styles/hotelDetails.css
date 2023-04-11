@@ -1,0 +1,181 @@
+body{
+    font-family:'Arial';
+}
+#a-body{
+    width:65%;
+    margin:auto;
+    /* border:1px solid black; */
+    /* padding-left:60px */
+}
+#a-image{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    
+}
+#a-bigimage{
+    width:50%;
+    height: 300px;
+    /* border:1px solid black; */
+    gap:7px;
+    margin :3px;
+}
+
+#a-bigimage>img{
+    width:100%;
+    height: 307px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+#a-smallimage{
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    height: 50%;
+    gap:7px;
+    margin :3px;
+    
+}
+
+#a-smallimage>div{
+    height: 150px;
+
+    
+}
+#a-smallimage>div>img{
+    width:100%;
+    height:100%;
+}
+#a-righttop{
+    border-top-right-radius: 15px;
+}
+#a-rightbottom{
+    border-bottom-right-radius: 15px;
+}
+
+#a-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:98%;
+    height:50px;
+    margin-top: 5px;
+    padding: 0px 10px;
+    border: 1px solid rgba(184, 184, 184, 0.502);
+    border-radius: 5px;
+}
+#a-options>div{    
+    display:flex;
+    width:100px;
+    gap:20px
+}
+#a-options>div>h4{    
+    font-weight: 100;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+#a-options>div{    
+    font-weight: 100;
+    cursor: pointer;
+    
+}
+#a-options>div>h5{ 
+    width:300px;   
+    font-weight: 100;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+
+
+#a-price{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+#a-hotelDetail{
+    margin-top:5px;
+    display: flex;
+    
+    
+    
+    
+
+}
+#a-leftdiv{
+    width:75%;
+   
+   
+}
+
+#a-leftdiv>div{
+    border: 1px solid rgba(184, 184, 184, 0.502);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    /* gap: 10px; */
+   
+    
+
+}
+
+#a-logo{
+width:100px;
+
+}
+#a-highlights>div{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+    text-align: center;
+
+}
+
+#a-highlights img{
+    width:50px;
+}
+
+#a-abouthotel>div{
+    padding: 10px;
+}
+#a-stay{
+    text-align: center;
+    padding: 10px;
+}
+#a-stay>div>div{
+   
+    
+    display: flex;
+    justify-content: space-evenly;
+   
+    gap:1px;
+    
+
+}
+#a-stay>div>div>div{
+    text-align: center;
+    /* gap:10px; */
+     width:25%;
+    background-color: rgba(189, 189, 189, 0.136);
+
+
+}
+#a-facility{
+    padding: 10px;
+}
+#a-facility>h3{
+   text-align: center;
+}
+#a-facility>div{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#a-rightdiv{
+    width: 24%;
+    border: 1px solid rgba(184, 184, 184, 0.502);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
