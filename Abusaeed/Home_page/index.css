@@ -1,0 +1,302 @@
+/* Recent Activity bar Start */
+#selection-bar{
+    width: 65%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+#selection-bar h5{
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+}
+.hr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hr h6{
+    margin-left: 7px;
+    margin-top: 9px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.vl {
+    border-left: 0.5px solid  rgb(118, 107, 107);
+    height: 100px;
+    margin-right: 10px;
+    border-color: rgb(125, 117, 117);
+  }
+  #mumbai{
+      width: 50%;
+      background-color: rgb(249,250,250);
+  }
+#mumbai-1{
+    display: flex;
+}
+#btn1{
+    margin-top: 4%;
+    margin-left: 40%;
+}
+#btn1 button{
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    font-weight: 500;
+    border: .5px solid rgb(77, 74, 74);
+    border-radius: 7px;
+}
+#recent-act{
+    display: flex;
+}
+#img-1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+#img-1{
+    margin-top: -10px;
+    width: 45%;
+}
+#detail-1{
+    display: flex;
+}
+.p-select{
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(109, 101, 101);
+}
+/* Recent Activity bar End */
+
+/* Slider Start */
+#main-home{
+    width: 70%;
+    margin: auto;
+    margin-top: 8%;
+}
+#line-1{
+    margin-top: -1px;
+}
+#top-btn-div button{
+    border: none;
+    padding: 5px 15px;
+    color: rgb(99, 90, 90);
+    font-family: inherit;
+    font-weight: 600;
+    background-color: white;
+}
+#top-btn-div button:hover{
+    background-color: rgb(243,245,247);
+}
+#top-btn-div button:focus{
+   color: rgb(54,132,194);
+   border: 0.5px dotted black;
+   border-bottom:2px solid rgb(54,132,194);
+}
+.main-carousel{
+    width: 100%;
+    margin: auto;
+    border-radius: 8px;
+}
+.cell{
+    width: 23.5%;
+    margin: 0 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.cell img{
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+/* Slider End */
+
+
+/* Passege start */
+#passege{
+    width: 70%;
+    margin: auto;
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+#passege h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.span-1{
+    font-weight: 700;
+}
+/* Passege End */
+
+#main-ul{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%
+}
+#main-ul-1{
+    display: flex;
+    width:100%;
+    height: 120px;
+    margin: auto;
+    border:1px solid grey;
+    font-family: 'GestaRegular', Arial, Helvetica, sans-serif;
+    overflow: auto;
+    border: none;
+}
+#main-ul-2>ul{
+    margin-left: -32px;
+}
+ul li{
+    list-style-type: none;
+    font-size: 13px;
+    padding: 3px;
+}
+.main-h3{
+    font-size: 20px;
+    font-weight: 700;   
+}
+
+
+
+/* Footer start */
+#body-footer{
+    background-color: rgb(10,17,33);
+     padding-bottom: 1.5%;
+}
+#footer{
+    width: 75%;
+    margin: auto;
+}
+#main-footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    height: 100px;
+}
+#main-footer input{
+    text-align: left;
+    border-radius: 10px;
+    width: 500px;
+    padding: 8px;
+}
+#main-footer button{
+    width: 100px ;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(108,112,122);
+    font-weight: 600;
+}
+#main-footer p{
+    font-size: 12px;
+}
+#line-1{
+   border: 1px solid white;
+}
+#main-footer-2{
+    display: flex;
+     justify-content: space-between;
+}
+#info-1{
+    display: flex;
+    flex-direction: row;
+}
+#info-1 p{
+    list-style: none;
+    font-size: 13px;
+    color: white;
+}
+
+.dropdown-menu {
+  background-color: rgb(10,17,33);
+}
+.btn-secondary{
+    text-align: left;
+   padding: 10px 150px;
+    color: white;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    background-color: rgb(10,17,33);
+}
+.btn-secondary:hover{
+    background-color: rgb(10,17,33);
+    color:  white;
+}
+.dropdown-menu{
+    background-color: rgb(10,17,33);
+    width: 100%;
+}
+.dropdown-item:hover{
+    background-color:rgb(58, 160, 220);
+}
+#main-footer-3{
+    display: flex;
+    gap: 1.5%;
+    margin-top: 1%;
+}
+.bi-facebook{
+   color: white;
+   background-color: rgb(10,17,33);
+}
+.fa-twitter{
+    color: rgb(10,17,33);
+    background-color: white;
+    padding: 2px;
+    border-radius: 17px;
+}
+.fa-instagram{
+    color: rgb(10,17,33);
+    background-color: white;
+    border-radius: 23px;
+    padding: 5px;
+}
+.bi-youtube{
+    color: rgb(10,17,33);
+    background-color: white;
+    padding: 5px;
+    border-radius: 18px;
+}
+.bi-linkedin{
+    background-color: rgb(10,17,33);
+    color: white;
+    border-radius: 18px;
+}
+#main-footer-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+#main-footer-4 a{
+    text-decoration: none;
+}
+#main-footer-4 p{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    line-height: 8px;
+}
+#main-footer-5{
+   text-align: center;
+   margin-top: 4%;
+}
+#main-footer-5 h3{
+    color: white;
+    font-weight: 700;
+}
+#main-footer-5 p{
+    font-size: 11px;
+    margin-top: 1.5%;
+    color: rgb(175, 168, 168);
+}
