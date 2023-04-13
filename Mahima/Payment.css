@@ -1,0 +1,90 @@
+body{
+    background-color: #f9fafa;
+}
+#process-navigate{
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-container{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    gap: 3%;
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#left-cont{
+
+    display: grid;
+    height: 330px;
+    width: 300px;
+    border-radius: 1px solid rgb(186, 40, 40) 1px;
+    border: 1px solid red;
+    padding: 3px 3px 3px 3px;
+}
+#left-cont >p{
+    font-weight: bold;
+    margin-left: 3%;
+}
+#book-detail{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin-top: -4%;
+}
+#book-detail > .V-line{
+    border-right: solid 1px gray;
+    height:70px;
+    margin-top: 10%;
+    margin-bottom: -10px;
+}
+.bold{
+    font-weight: bold;
+}
+#lefts{
+    margin-left: 4%;
+    margin-top: -6%;
+    margin-bottom: -4%;
+}
+#left-cont > div> hr{
+    width: 80%;
+    height: 0px;
+}
+#left-cont > div> a{
+    text-decoration: none;
+}
+#left3{
+    margin-left: 4%;
+    margin-top: -1%;
+}
+/* #main-right-container{
+    display: flex;
+    flex-direction: row;
+}
+#right-container1{
+    height: 170px;
+    width: 80%;
+    border: 2px solid rgb(190, 189, 192);
+}
+#right-container2{
+    height: 130px;
+    width: 80%;
+    border: 1px solid rgb(199, 197, 200);
+}
+#right-container3{
+
+} */
+#right-container1{
+    height: 170px;
+    width: 80%;
+    border: 2px solid rgb(115, 79, 186);
+}
