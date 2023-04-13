@@ -57,14 +57,14 @@
             border-radius: 10px;
             margin: 5px 2px;
             width: 97.5%;
-            background-color:rgb(15, 119, 217) ;
+            background-color:rgb(62, 123, 203) ;
             border: none;
             color: rgb(255, 255, 255);
             font-weight: bolder;
             font-size: 16px;
         }
         button:hover{
-            background-color: #1e9af2;
+            background-color: #2d6995;
         }
         .other{
             display: flex;
@@ -76,7 +76,7 @@
             border-radius: 10px;
         }
         .other:hover{
-            background-color: rgb(115, 115, 115);
+            background-color: rgb(116, 111, 111);
             color: rgb(255, 255, 255);
         }
         .image{
@@ -144,6 +144,46 @@
           </div>
          
       </div>
-   
+      <script>
+
+       
+          
+          document.getElementById("btn").addEventListener("click", function(){
+              
+              let email=document.getElementById("email").value;
+              
+              localStorage.setItem("email",JSON.stringify(email))
+                 
+              let dataArray=JSON.parse(localStorage.getItem("data")) ||[];
+
+
+
+              if(email ==""){
+                alert("Please Enter Email Address")
+                return;
+              }
+                
+              if(dataArray.length !=0){
+                dataArray.forEach(elm => {
+                        
+                        if(elm.email==email){
+        
+                            
+                            window.location.replace("./login2.html")
+                        }
+                    
+                        else{
+                            window.location.replace("./signUp.html")
+                        }
+                    });
+            }else{
+                window.location.replace("./signUp.html")
+            }
+
+                 
+            
+           
+        })
+      </script>
 </body>
 </html>
