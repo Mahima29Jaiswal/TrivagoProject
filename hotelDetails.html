@@ -30,19 +30,20 @@
 
         <div id="a-options">
             <div>
-                <h4>Overview</h4>
-                <h4>Rooms</h4>
-                <h4>Facilities</h4>
-                <h4>Reviews</h4>
-                <h4>Location</h4>
-                <h4>Policies</h4>
+                <h4 class="hover-underline-animation"><a href="#a-hotelDetail">Overview</a></h4>
+               <h4 class="hover-underline-animation"><a href="#a-rooms">Rooms</a></h4> 
+                <h4 class="hover-underline-animation"><a href="#">Facilities</a></h4>
+                <h4 class="hover-underline-animation"><a href="#">Reviews</a></h4>
+                <h4 class="hover-underline-animation"><a href="#">Location</a></h4>
+                <h4 class="hover-underline-animation"><a href="#">Policies</a></h4>
             </div>
             <div><h5>From Rs <span id="a-price"> 5600</span></h5></div>
           
         </div>
 
-
+       <div>
         <div id="a-hotelDetail">
+            
             <div id="a-leftdiv">
                 <div id="a-abouthotel">
                   
@@ -145,18 +146,194 @@
             </div>  
                 
             </div> 
-            <div id="a-rightdiv">hiiiiiiiiiiiiiiiiiii</div>
-        </div>
-        
+
+
+
+            <div id="a-rightdiv1">
+                
+                <div id="a-right1">
+                    <button id="a-room">SELECT ROOM</button>
+                <h2 id="a-rating">7.3 Very good</h2>
+                <h4> 770 reviews</h4>
+                <button class="a-fac"> House Keeping 👍🏻 </button>
+                <button class="a-fac">Breakfast 🍔</button>
+                <button class="a-fac">Food & dining 🍽️ </button>
+                </div>
+
+
+                <div id="a-google-map">
+                    <iframe width="100%" height="200px" id="gmap_canvas" src="" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <h3>7.7 Very Good</h3>
+                    <p> Location rating Score</p>
+                    <p>🥈 Very good Location</p>
+                    <hr>
+                    <p>🚘 Parking </p>
+                    <hr>
+                </div>
+
+                <h3>Popular landmarks</h3>
+                <div id="a-popular" >
+                    <h5>Birla Mandir</h5>
+                <h5>Jantar Mantar</h5>
+                <h5>City Palace</h5>
+                <h5>City Center</h5>
+                <h5>Sheesh Mahal</h5>
+                </div>
+                
+            </div>  
+                </div> 
+          <div id="a-rooms">
+           
+            <div> <h2 style="margin:0 0 -7px 10px;">Delux Room King</h2>
+                <div>
+                    
+                <div>
+                        <img src="https://pix8.agoda.net/hotelImages/302/302210/302210_14021215210018318314.jpg?ca=2&ce=1&s=208x117&ar=16x9" alt="">
+                        <ul>
+                            <li> 🛏 1 Double Bed</li>
+                            <li> 𓉩 Room Size: 400 Sqft</li>
+                            <li> 🖥 City View</li>
+                            <li> 🏯 Balcony/Terrace</li>
+                            <li> 🚭 Non-Smoking</li>
+                            <li> 🚿 Shower</li>
+                            <li style="color:blue;cursor: pointer;"> + See all Facilities</li>
+                        </ul> 
+                       
+                        
+                    
                 </div>
                 
                 
+                <div>
+                    <div id="a-benifits">
+                        <h2>Benifits</h2>
+                    <h3> Your price includes:</h3>
+                  
+                        <p>✔️ Free breakfast</p>
+                        <p>✔️ Parking, Welcome drink,
+                            <p> ✔️ express check-in </p>
+                            <p>✔️Free Wi-Fi</p>
+                            <p>✔️ Drinking water </p>
+                            <p>✔️ Free Fitness </p>
+                                <p>✔️ center Access </p>
+                        <p>✔️ Free Cancellation before April 13,2023</p>
+                       
+                    </div>
+                    
+                    
+                </div>
+
+               
+                <div id="a-sleep">
+                    <h2>Sleeps</h2>
+                    <!-- <img id="a-persons" src="https://www.flaticon.com/free-icon/man_727405" alt=""> -->
+                    <h3>2 Adult(s)</h3>
+
+                </div>
+
+                <div id="a-bookdiv">
+                    <div id="a-rare"> <p># Our lowest price in the last month</p></div>
+                    <!-- <div id = "save75"><p>Save 75% Today</p> </div> -->
+                    <div>
+                        <h3 class="beforediscountprice" >Rs. <span id="beforeprice1">20000</span></h3>
+                        <h2 class="afterdiscountprice" > Rs.<span id="afterprice1">5600</span></h2>  
+                    
+                    </div>
+                    <div>
+                        <h3>Add Rooms</h3>
+                        <select id="a-addmore1" onchange="pricesfun()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button id="a-booknowbtn">BOOK NOW</button>
+                    </div>
+                </div>
+            </div>
+           
+
+        </div><br><br>
+ <!-- -------------------------------------------------------------------- -->
+         <div> <h2 style="margin:0 0 -7px 10px;">Delux Room Twin</h2>
+            <div>
+                
+            <div>
+                    <img src="https://pix8.agoda.net/hotelImages/302/302210/302210_20031110020089298640.jpg?ca=10&ce=1&s=208x117&ar=16x9" alt="">
+                    <ul>
+                        <li> 🛏 2 Double Bed</li>
+                        <li> 𓉩 Room Size: 600 Sqft</li>
+                        <li> 🖥 City View</li>
+                        <li> 🏯 Balcony/Terrace</li>
+                        <li> 🚭 Non-Smoking</li>
+                        <li> 🚿 Shower</li>
+                        <li style="color:blue;cursor: pointer;"> + See all Facilities</li>
+                    </ul> 
+                   
+                    
                 
             </div>
             
+            
+            <div>
+                <div id="a-benifits">
+                    <h2>Benifits</h2>
+                <h3> Your price includes:</h3>
+              
+                    <p>✔️ Free breakfast</p>
+                    <p>✔️ Parking, Welcome drink,
+                        <p> ✔️ express check-in </p>
+                        <p>✔️Free Wi-Fi</p>
+                        <p>✔️ Drinking water </p>
+                        <p>✔️ Free Fitness </p>
+                            <p>✔️ center Access </p>
+                    <p>✔️ Free Cancellation before April 13,2023</p>
+                   
+                </div>
+                
+                
+            </div>
+
+           
+            <div id="a-sleep">
+                <h2>Sleeps</h2>
+                <!-- <img id="a-persons" src="https://www.flaticon.com/free-icon/man_727405" alt=""> -->
+                <h3>3 Adult(s)</h3>
+
+            </div>
+
+            <div id="a-bookdiv">
+                <div id="a-rare"> <p># Our lowest price in the last month</p></div>
+                <!-- <div id = "save75"><p>Save 75% Today</p> </div> -->
+                <div>
+                    <h3 class="beforediscountprice" >Rs. <span id="beforeprice2">20000</span></h3>
+                    <h2 class="afterdiscountprice" > Rs.<span id="afterprice2">5600</span></h2>                        
+                </div>
+                <div>
+                    <h3>Add Rooms</h3>
+                    <select id="a-addmore2" onchange="pricesfun()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="a-booknowbtn">BOOK NOW</button>
+                </div>
+            </div>
         </div>
+       
 
     </div>
+          </div>
+                
+            </div>
+        </div>
+        
+           
+       
+    
 
 
     
@@ -164,3 +341,4 @@
     
 </body>
 </html>
+<script src="/TrivagoProject/scripts/hotelDetails.js" ></script>

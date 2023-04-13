@@ -171,11 +171,209 @@ width:100px;
     justify-content: space-evenly;
 
 }
-#a-rightdiv{
+#a-rightdiv1{
     width: 24%;
     border: 1px solid rgba(184, 184, 184, 0.502);
     border-radius: 5px;
     margin-top: 10px;
 }
+#a-rightdiv1{
+ padding: 10px;
+ 
+
+}
+
+.a-fac{
+    /* width:70%; */
+    padding:5px;
+ margin :3px;
+ background-color: white;;
+ border: 1px solid rgba(184, 184, 184, 0.502);
+ border-radius: 5px;
+}
+#a-google-map{
+    margin-top: 10px;
+
+}
+hr{
+   background-color:rgba(184, 184, 184, 0.502);
+   height:0.1px;
+   border: none;
+}
+
+#a-popular{
+    margin:3px;
+}
+#a-popular>h5{
+    font-weight: 100;
+}
+#gmap_canvas{
+    border: 1px solid rgba(184, 184, 184, 0.502);
+ border-radius: 5px;
+
+}
+
+.hover-underline-animation{
+    display: block;
+    position: relative;
+    /* color: red; */
+    
+}
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+    gap:3px;
+   
+    background-color:#007ffe;
+    
+    transform-origin: bottom ;
+    transition: transform 0.50s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+    
+}
+ #a-room{
+    width:75%;
+    height:50px;
+    margin :10px;
+    padding:5px;
+    color: white;
+    background-color: white;;
+    border: 1px solid rgba(184, 184, 184, 0.502);
+    border-radius: 5px;
+    background-color:#5392f9 ;
+    cursor: pointer;
+    font-size: 14PX;
+    font-weight: 600;
+
+}
+#a-rooms>div>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+    background-color: rgba(166, 164, 166, 0.19);
+    border: 1px solid rgba(74, 32, 32, 0.707);
+    border-radius: 5px;
+    
+}
+#a-benifits,#a-bookdiv,#a-sleep{
+    padding: 10px;
+    margin:20px 0 20px;
+    background-color: rgba(255, 255, 255, 0.745);
+
+}
+
+#a-bookdiv{
+   margin-right: 20px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+#a-benifits{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 
 
+
+#a-rooms>div>div>div>img{
+   
+    margin:20px;
+    width:200px;
+    border-radius: 5px;
+}
+#a-rooms>div>div>div>ul>li{
+    font-size: 14px;
+    margin: 10px;
+    list-style: none;
+}
+#a-benifits{
+    margin-left: 10px;
+    
+   /* width:50%; */
+    font-size:15px;
+    /* margin: 30px; */
+}
+#a-benifits>li{
+    /* padding: 10px; */
+   
+}
+
+#a-persons{
+    width:50px;
+
+}
+#a-rare{
+    width:75%;
+    margin-top:10px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(249, 65, 65);
+    font-weight:10;
+    background-color: 
+    #fdeee6;
+}
+
+.beforediscountprice>span{
+ text-decoration: line-through;
+ color:gray;
+ font-weight: 100;
+ ;
+}
+.beforediscountprice{
+    
+    color:gray;
+    font-weight: 100;
+    ;
+   }
+
+.afterdiscountprice{
+ color:red;
+}
+
+#save75>p{
+    /* margin :auto;
+    padding: auto; */
+    background-color: red;
+color:white;
+}
+
+#a-addmore1,#a-addmore2{
+    width:75%;
+    height: 30px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: larger;
+ 
+}
+#a-booknowbtn{
+    
+    width:75%;
+    height:50px;
+    
+    padding:5px;
+    color: white;
+    background-color: white;;
+    border: 1px solid rgba(184, 184, 184, 0.502);
+    border-radius: 5px;
+    background-color: #5392f9 ;
+    cursor: pointer;
+    font-size: 12PX;
+    font-weight: 600;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h4>a{
+    text-decoration: none;
+    color:rgb(137, 137, 137)
+}
