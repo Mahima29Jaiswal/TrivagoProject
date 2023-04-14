@@ -1,6 +1,9 @@
 body{
-    font-family:'Arial';
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
 }
+
+
 #a-body{
     width:65%;
     margin:auto;
@@ -62,6 +65,7 @@ body{
     height:50px;
     margin-top: 5px;
     padding: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     border: 1px solid rgba(184, 184, 184, 0.502);
     border-radius: 5px;
 }
@@ -80,12 +84,13 @@ body{
     cursor: pointer;
     
 }
-#a-options>div>h5{ 
+.a-option-hoverdiv>h5{ 
     width:300px;   
     font-weight: 100;
     color: rgb(105, 105, 105);
     cursor: pointer;
 }
+
 
 
 #a-price{
@@ -109,6 +114,7 @@ body{
 }
 
 #a-leftdiv>div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     border: 1px solid rgba(184, 184, 184, 0.502);
     border-radius: 5px;
     margin-top: 10px;
@@ -120,7 +126,13 @@ body{
 }
 
 #a-logo{
+    margin: 20px 0 -20px 30px;;
 width:100px;
+
+}
+
+#a-abouthotel>div>p{
+    color: rgb(48, 48, 48);
 
 }
 #a-highlights>div{
@@ -132,8 +144,10 @@ width:100px;
 }
 
 #a-highlights img{
+   
     width:50px;
 }
+
 
 #a-abouthotel>div{
     padding: 10px;
@@ -161,7 +175,8 @@ width:100px;
 
 }
 #a-facility{
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 1px 10px 20px;
 }
 #a-facility>h3{
    text-align: center;
@@ -173,6 +188,7 @@ width:100px;
 }
 #a-rightdiv1{
     width: 24%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border: 1px solid rgba(184, 184, 184, 0.502);
     border-radius: 5px;
     margin-top: 10px;
@@ -182,12 +198,22 @@ width:100px;
  
 
 }
+.a-offerimg{
+    margin-top: 20px;
+}
+.a-offers>li{
+    text-align: left;
+    list-style-position:unset;
+
+
+}
 
 .a-fac{
     /* width:70%; */
     padding:5px;
  margin :3px;
- background-color: white;;
+ background-color: white;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  border: 1px solid rgba(184, 184, 184, 0.502);
  border-radius: 5px;
 }
@@ -208,15 +234,38 @@ hr{
     font-weight: 100;
 }
 #gmap_canvas{
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     border: 1px solid rgba(184, 184, 184, 0.502);
  border-radius: 5px;
 
 }
+#gmap_canvas:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
 
 .hover-underline-animation{
     display: block;
+    /* color:red; */
     position: relative;
     /* color: red; */
+    
+}
+.hover-underline-animation>a{
+    display: block;
+    color: rgb(105, 105, 105);;
+    /* position: relative; */
+    /* color: red; */
+    
+}
+.hover-underline-animation>a:hover{
+    /* display: block; */
+    color: black;
+    font-weight:400;
+    
+    
+    
     
 }
 .hover-underline-animation:after {
@@ -228,11 +277,12 @@ hr{
     bottom: -10px;
     left: 0;
     gap:3px;
+    
    
-    background-color:#007ffe;
+    background-color:#232323;
     
     transform-origin: bottom ;
-    transition: transform 0.50s ease-out;
+    /* transition: transform 0.50s ease-out; */
 }
 
 .hover-underline-animation:hover:after {
@@ -255,12 +305,22 @@ hr{
     font-weight: 600;
 
 }
+#a-room:hover{
+    background-color: #0144af ;
+}
+#a-room>a{
+    text-decoration: none;
+    color: white;
+}
+
+
 #a-rooms>div>div{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: rgba(166, 164, 166, 0.19);
-    border: 1px solid rgba(74, 32, 32, 0.707);
+    border: 1px solid rgba(184, 184, 184, 0.502);
     border-radius: 5px;
     
 }
@@ -274,6 +334,7 @@ hr{
 #a-bookdiv{
    margin-right: 20px;
    border-top-right-radius: 10px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
    border-bottom-right-radius: 10px;
 }
 #a-benifits{
@@ -284,10 +345,27 @@ hr{
 
 
 #a-rooms>div>div>div>img{
+   width:200px;
+    margin:20px 20px -20px 30px;
+    border: 1px solid rgba(98, 98, 98, 0.502);
    
-    margin:20px;
-    width:200px;
-    border-radius: 5px;
+   
+    height: 100px;
+    /* border-top-right-radius: 5px; */
+}
+#a-rooms>div>div>div>img:hover{
+    border: 1px solid rgba(24, 24, 24, 0.502);
+    box-shadow: rgba(4, 37, 73, 0.252) 0px 16px 24px;
+}
+
+.upperimg{
+    border-top-right-radius: 7px ;
+    border-top-left-radius: 7px ;
+}
+
+.downimg{
+    border-bottom-right-radius: 7px ;
+    border-bottom-left-radius: 7px ;
 }
 #a-rooms>div>div>div>ul>li{
     font-size: 14px;
@@ -301,10 +379,7 @@ hr{
     font-size:15px;
     /* margin: 30px; */
 }
-#a-benifits>li{
-    /* padding: 10px; */
-   
-}
+
 
 #a-persons{
     width:50px;
@@ -319,6 +394,12 @@ hr{
     font-weight:10;
     background-color: 
     #fdeee6;
+}
+#a-rare:hover{
+    background-color: 
+    #edc2ac;
+    color: rgb(165, 9, 9);
+
 }
 
 .beforediscountprice>span{
@@ -345,7 +426,7 @@ hr{
 color:white;
 }
 
-#a-addmore1,#a-addmore2{
+#a-addmore1,#a-addmore2,#a-addmore3{
     width:75%;
     height: 30px;
     margin-top: -5px;
@@ -353,6 +434,17 @@ color:white;
     font-size: larger;
  
 }
+
+#a-addmore1:hover{
+    background-color: #b4c9eb7b;
+}
+#a-addmore2:hover{
+    background-color: #b4c9eb7b;
+}
+#a-addmore3:hover{
+    background-color: #b4c9eb7b;
+}
+
 #a-booknowbtn{
     
     width:75%;
@@ -360,7 +452,8 @@ color:white;
     
     padding:5px;
     color: white;
-    background-color: white;;
+    background-color: white;
+    
     border: 1px solid rgba(184, 184, 184, 0.502);
     border-radius: 5px;
     background-color: #5392f9 ;
@@ -369,6 +462,14 @@ color:white;
     font-weight: 600;
 
 }
+
+#a-booknowbtn:hover{
+    background-color: #0144af ;
+}
+
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -376,4 +477,21 @@ html{
 h4>a{
     text-decoration: none;
     color:rgb(137, 137, 137)
+}
+#big-g-map>h1{
+    margin:5px 0 5px 10px;
+}
+
+#big-g-map{
+    width:100%;
+    margin-top:20px;
+    padding: 10px;
+    /* margin: auto; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid rgba(184, 184, 184, 0.502);
+    border-radius: 10px;
+}
+
+#a-bookdiv{
+    padding-left: 30px;
 }
