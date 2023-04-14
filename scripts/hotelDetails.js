@@ -1,18 +1,27 @@
-let setData={
-    hotelName: "Royal Palace",
-          price: 1550,
-          rating: 3,
-          address: "Kajari Road, Chomu Pulia Road, Jaipur, Rajasthan",
-          city:"jaipur"
-}
-
-localStorage.setItem("CurrentHotel",JSON.stringify(setData));
 
 
-let data=JSON.parse(localStorage.getItem("CurrentHotel"))
+// let setData={
+//     hotelName: "Royal Palace",
+//           price: 1550,
+//           rating: 3,
+//           address: "Kajari Road, Chomu Pulia Road, Jaipur, Rajasthan",
+//           city:"jaipur"
+// }
 
-console.log(data.rating)
-let querry=data.city
+
+
+// document.getElementById("Mumbai-btn").addEventListener("click",deleteMum);
+// function deleteMum(){
+//     document.getElementById("Mumbai-input").value="";
+//  }
+
+// localStorage.setItem("CurrentHotel",JSON.stringify(setData));
+
+
+let data=JSON.parse(localStorage.getItem("selectedHotel"))
+
+// console.log(data.rating)
+let querry="jaipur"
 
 let gmap=document.getElementById("gmap_canvas")
 let gmap1=document.getElementById("gmap_canvas1")
@@ -58,7 +67,7 @@ beforeprice3.innerText=qty3*(afterprice3.innerText*1.5);
 
 
 
-let hotelName=data.hotelName;
+let hotelName=data.name;
 document.getElementById("a-HotelName").innerText=hotelName;
 
 let hoteladd=data.address;
@@ -67,15 +76,34 @@ document.getElementById("a-HotelAdd").innerText=hoteladd;
 let hotelRating=`${data.rating} Very good`
 document.getElementById("a-rating").innerText=hotelRating;
 
-let price=`${data.price} Very good`
-document.getElementById("a-rating").innerText=hotelRating;
+// let price=`${data.price} Very good`
+// document.getElementById("a-rating").innerText=hotelRating;
 
 
 
 
-function paymentpage(){
+function paymentpage1(){
+   let price= document.getElementById("afterprice1").innerText
+//    alert(price);
+    localStorage.setItem("finalAmount",price)
     window.location.href="Payment.html"
 }
+
+function paymentpage2(){
+    let price= document.getElementById("afterprice2").innerText
+    // alert(price);
+    localStorage.setItem("finalAmount", price);
+    //  localStorge.setItem("finalAmount",price)
+     window.location.href="Payment.html"
+ }
+ 
+function paymentpage3(){
+    let price= document.getElementById("afterprice3").innerText
+
+    // alert(price);
+     localStorage.setItem("finalAmount",price)
+     window.location.href="Payment.html"
+ }
 
 // document.querySelector("#a-booknowbtn").addEventListener
 

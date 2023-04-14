@@ -5,7 +5,7 @@ body{
 
 
 #a-body{
-    width:70%;
+    width:65%;
     margin:auto;
     /* border:1px solid black; */
     /* padding-left:60px */
@@ -76,6 +76,7 @@ body{
 }
 #a-options>div>h4{    
     /* width:100px; */
+    font-size: large;
     font-weight: 100;
     color: rgb(105, 105, 105);
     cursor: pointer;
@@ -234,11 +235,14 @@ hr{
     margin:3px;
 }
 #a-popular>h5{
+    font-size: medium;
+    margin-left: 10px;
     font-weight: 100;
 }
 #gmap_canvas{
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-    border: 1px solid rgba(184, 184, 184, 0.502);
+    border: 1px solid rgba(70, 70, 70, 0.502);
+    padding: 2px;
  border-radius: 5px;
 
 }
@@ -367,6 +371,7 @@ hr{
 }
 
 .downimg{
+    margin-bottom: 20px;
     border-bottom-right-radius: 7px ;
     border-bottom-left-radius: 7px ;
 }
@@ -496,6 +501,7 @@ h4>a{
 #big-g-map{
     width:100%;
     margin-top:20px;
+    margin-bottom: 30px;
     padding: 10px;
     /* margin: auto; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -507,7 +513,9 @@ h4>a{
     padding-left: 30px;
 }
 
-
+/* nav>a{
+    text-decoration: none;
+} */
 
 
 
@@ -531,5 +539,6 @@ h4>a{
     #a-from>h5,span{
      display: none;
     }
+    
 }
   
