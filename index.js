@@ -11,13 +11,13 @@ function deleteMum() {
   document.getElementById("Mumbai-input").value = "";
 }
 
-let dataArr = JSON.parse(localStorage.getItem("data")) || [];
+let data = JSON.parse(localStorage.getItem("data")) || [];
 let loginName = document.getElementById("login-span");
 let detailName = document.getElementById("detail-span");
-if (dataArr.length > 0) {
-  loginName.textContent = dataArr[data.length - 1].firstName;
+if (data.length > 0) {
+  loginName.textContent = data[data.length - 1].firstName;
   detailName.textContent =
-    "Have a nice journey" + " " + dataArr[data.length - 1].firstName;
+    "Have a nice journey" + " " + data[data.length - 1].firstName + "...";
 }
 
 let booking_Data = JSON.parse(localStorage.getItem("info")) || [];
