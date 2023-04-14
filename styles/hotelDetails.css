@@ -5,7 +5,7 @@ body{
 
 
 #a-body{
-    width:65%;
+    width:70%;
     margin:auto;
     /* border:1px solid black; */
     /* padding-left:60px */
@@ -75,6 +75,7 @@ body{
     gap:20px
 }
 #a-options>div>h4{    
+    /* width:100px; */
     font-weight: 100;
     color: rgb(105, 105, 105);
     cursor: pointer;
@@ -94,8 +95,10 @@ body{
 
 
 #a-price{
+    
     font-size: 20px;
     color: rgb(255, 0, 0);
+    
     cursor: pointer;
 }
 #a-hotelDetail{
@@ -419,6 +422,14 @@ hr{
  color:red;
 }
 
+
+#a-from{
+    display: flex;
+    align-items: center;
+    /* width: 600px; */
+
+}
+
 #save75>p{
     /* margin :auto;
     padding: auto; */
@@ -495,3 +506,30 @@ h4>a{
 #a-bookdiv{
     padding-left: 30px;
 }
+
+
+
+
+
+
+/* for medium screens */
+
+@media only screen and (min-width: 600px) and (max-width: 1080px) {
+    
+    #a-body{
+        width:98%;
+        margin :auto;
+        
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 630px) {
+    
+    #a-body{
+        width:98%;
+        margin :auto;        
+    }
+    #a-from>h5,span{
+     display: none;
+    }
+}
+  
