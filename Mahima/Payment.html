@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Payment.css">
+    <title>Payment Page</title>
+</head>
+<body>
+    <!-- <h1>Welcome to Trivago! Enjoy your Services, Whatever you want</h1> -->
+    <div id="navbar"></div>
+     <!-- Navbar export -->
+<div class="full">
+     <div id="process-navigate">
+            
+        <h4>Your Selection</h4>
+        <h4>Your Details</h4>
+        <h4>Final Step</h4>
+    </div>
+    <div id="main-container">
+        
+        <div id="left-cont">
+            <p class="head">Your- Booking Details</p> 
+            <div id="book-detail">
+                <div>
+                    <p>Check-in</p>
+                    <p class="bold">Date & Time</p>
+                    <p>From 11:00</p>
+                    
+                </div>
+                <div class="V-line"></div>
+                <div>
+                    <p>Check-out</p>
+                    <p class="bold">Date & Time</p>
+                    <p>Until 12:00</p>
+                </div>
+                
+            </div>
+            <div id="lefts">
+                <p>Total Length of Stay :</p>
+                <p class="bold">1 Night</p>
+            </div>
+            <div><hr></div>
+            <div id="left3">
+                <p class="bold">You selected:</p>
+                <p>Executive Room</p>
+                <a href="#">Change your selection</a>
+            </div>
+        </div>
+        <div id="right-container1"></div>
+        <div id="left-cont2">
+           <p class="head">Your price summary</p> 
+                <div id="amtplace">
+                    <div>
+                        <p>Executive Room</p> 
+                        <p>Goods & services tax</p>
+                    </div>
+                    <div class="showamt">
+                        
+                        <h4 id="amt">₹ 2500</h4>
+                        <h4 id="disc">₹ 270</h4>
+                    </div>
+                </div>
+                <div id="totamt">
+                    <p>Price <br> (for all guests)</p>
+                        <h4 id="tmt" class="bold" >₹ 2,770</h4>
+                    <!-- <div class="tam">
+                        
+                    </div> -->
+                </div>
+        </div>
+        <div id="right-container2">
+           <p class="allhead">
+            Good To Know
+           </p> 
+        <div id="gtk">
+           <i class="fa-light fa-credit-card fa-beat-fade fa-xs" style="color: #1f5135;"></i>
+           <p>No credit card needed!</p> <br/>
+           <i class="fa-light fa-circle-check"></i>
+           <p>No payment is required to secure this booking.You'll pay during your stay.</p>
+        </div>
+        </div>
+        <div id="left-cont3">
+           <p class="head">Your payment schedule</p> 
+           <p class="leftDetails">No payment today.<br> You'll pay when you stay.</p>
+        </div>
+
+        <div id="right-container3">
+            <p><a href="login.html">Sign in</a> to book with your saved details or <a href="signUp">register</a> to manage your bookings on the go!</p>
+        </div>
+        <div id="left-cont4">
+            <p class="head">How much will it cost to cancel?</p>
+            <div id="amtplace">
+                <p>If you cancel, you'll pay</p>
+                <p>₹ 2500</p>
+            </div>
+        </div>
+        <div id="right-container4">
+            <!-- <div id="right-cont4part"> -->
+            <p class="allhead">Executive Room</p><br>
+            
+            <i class="fa-solid fa-ban"></i>
+            <p id="right-cont4part">Total cost to cancel</p>
+            <i class="fa-thin fa-circle-question"></i>
+             <!-- guest -->
+             <p class="head">Guest : </p><br>
+             <i class="fa-thin fa-users"></i>
+
+             <label id="right-cont4part" for="gname">Full guest name</label> <br>
+             <input type="text" id="gname" placeholder="First Name, Last Name">
+            <!-- </div> -->
+            <!-- <div><hr></div> -->
+        </div>
+        <div></div>
+        <div>
+            <button class="button-3" role="button" onclick="getnextpage()">Payment</button>
+
+        </div>
+    </div>
+</div>
+<script src="/TrivagoProject/Mahima/Payment.js"></script>
+</body>
+</html>
