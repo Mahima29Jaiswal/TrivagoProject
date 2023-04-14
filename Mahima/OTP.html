@@ -25,14 +25,15 @@
                 <input type="number" disabled />
             </div>
             <button onclick="handleSubmit()">
-                <a style="color: azure;text-decoration: none;" href="index.html">
+                <a style="color: azure;text-decoration: none;" href="../index.html">
                     Verify OTP
                 </a>
             </button>
-           <button onclick="getRandom(1000,9999)">
-            Generate OTP
-           </button>
+            <!-- <button  type="button" href="OTP.html">
+                Generate OTP
+               </button> -->
         </form>
+        
     </div>
   </body>
 </html>
@@ -49,16 +50,22 @@
         }
     }
     //Generate OTP
-    const getRandom = (otplength) =>{
-        let otp =""
-        for(let i =0; i<otplength; i++){
-            otp += Math.floor(Math.random() *10);
+    
+    // const getRandom = (otplength) =>{
+        function getRandom(){
+        let num='0123456789';
+        let otp =''
+        for(let i =0; i<4; i++){
+            otp +=num[Math.floor(Math.random()*10)] ;
         }
-        alert("Your OTP is:",Number(otp));
+
+        alert(otp);
     }
+    console.log(getRandom())
     // function getRandom(min,max){
-    //     let x = Math.floor(Math.random() *(max -min))+min;
-    //     alert("Your OTP is:",x)
+    //     let x = Math.floor(Math.random() *(max - min+1)+min);
+    //     alert("Your OTP is:"+x)
+    //     console.log(x)
     // }
     // iterate over all inputs
     inputs.forEach((input, index1) => {

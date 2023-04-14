@@ -1,3 +1,9 @@
+// import footer from "./components/footer.js";
+// import footer from "../components/footer.js";
+// let mainFooter = document.getElementById("imported-footer");
+// mainFooter.innerHTML = footer();
+
+
 let Hoteldata = []
 
 		fetch('http://localhost:3000/Hoteldata').then(function(response) {
