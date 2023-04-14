@@ -1,5 +1,5 @@
-const footer=()=>{
-    return `<div id="body-footer">
+const footer = () => {
+  return `<div id="body-footer">
     <div id="footer">
     <div id="main-footer">
         <div>
@@ -21,10 +21,10 @@ const footer=()=>{
         </div>
         <div>
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle"  id="India-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   India
                 </button>
-                <ul class="dropdown-menu dropdown-menu-dark">
+                <ul class="dropdown-menu dropdown-menu-dark" id="India-drop-list">
                   <li><a class="dropdown-item " href="#">Afghanistan</a></li>
                   <li><a class="dropdown-item" href="#">Algeria</a></li>
                   <li><a class="dropdown-item" href="#">Australia</a></li>
@@ -99,7 +99,7 @@ const footer=()=>{
         <p>Copyright 2023 trivago | All rights reserved.</p>
       </div>
  </div> 
-</div>`
+</div>`;
 };
 
 export default footer;
