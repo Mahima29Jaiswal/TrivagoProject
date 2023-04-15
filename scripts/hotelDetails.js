@@ -86,7 +86,7 @@ function paymentpage1(){
    let price= document.getElementById("afterprice1").innerText
 //    alert(price);
     localStorage.setItem("finalAmount",price)
-    window.location.href="Payment.html"
+    location.href="./Mahima/Payment.html"
 }
 
 function paymentpage2(){
@@ -94,7 +94,7 @@ function paymentpage2(){
     // alert(price);
     localStorage.setItem("finalAmount", price);
     //  localStorge.setItem("finalAmount",price)
-     window.location.href="Payment.html"
+    location.href="./Mahima/Payment.html"
  }
  
 function paymentpage3(){
@@ -102,7 +102,7 @@ function paymentpage3(){
 
     // alert(price);
      localStorage.setItem("finalAmount",price)
-     window.location.href="Payment.html"
+     location.href="./Mahima/Payment.html"
  }
 
 // document.querySelector("#a-booknowbtn").addEventListener

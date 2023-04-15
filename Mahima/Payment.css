@@ -13,7 +13,11 @@ body{
     display: flex;
     justify-content: space-between;  
 }
-
+.material-icons{
+    font-size:30px ;
+    color: rgb(4, 4, 146);
+    margin-top: 1px;
+}
 #main-container{  
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -71,7 +75,7 @@ body{
 
 #right-container1{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap:10px;
     padding: 8%;
     height: 60%;
@@ -80,9 +84,16 @@ body{
     margin-left: -30%; 
 }
 #right-container1 > .Hotel-img{
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
+    
 }
+#right-container1 > .Hotel-add{
+ font-size: 12px;
+}
+/* #right-container1 > #dataAll{
+    margin-left: -100px;
+} */
 .product-img{
     height: 100px;
     width: 100px;
@@ -148,20 +159,26 @@ body{
     border: 1px solid #e7e7e7;
     margin-left: -30%;
     margin-top: -30%;
+
+}
+#right-container3 > p >a{
+    
+    text-decoration: none;
 }
 #right-container3 > p{
     margin-left: 4%;
+    
 }
 #left-cont4{
     display: grid; 
-    height: 200px;
+    height: 180px;
     width: 300px;
     border: 1px solid #e7e7e7;
     padding: 3px 3px 3px 3px;
     /* margin-left: 7%; */
 }
 #right-container4{
-    height: 150%;
+    /* height: 150%; */
     width: 135%;
     border: 1px solid #e7e7e7;
     margin-left: -30%;
@@ -215,7 +232,10 @@ input[type=text], select {
   white-space: nowrap;
   margin-top: -30%;
 }
-
+.button-3 >a{
+    text-decoration: none;
+    color: #f9fafa;
+}
 .button-3:focus:not(:focus-visible):not(.focus-visible) {
   box-shadow: none;
   outline: none;
