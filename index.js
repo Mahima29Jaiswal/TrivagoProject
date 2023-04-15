@@ -30,7 +30,7 @@ function savaInfo() {
   };
   booking_Data.push(obj);
   localStorage.setItem("info", JSON.stringify(booking_Data));
-  window.location = "yogeshIndex.html";
+  window.location = "hotelList.html";
 }
 
 document.getElementById("login-btn").addEventListener("click", loginFun);
